@@ -13,8 +13,8 @@ mark{
     box-shadow: 0 2px 50px;
     margin-top: 5vh;
     margin-bottom: 5vh;
-    /*height: 500px;*/
-    /*width: 500px;*/
+    height: 400px;
+    width: 400px;
 }
 .paragraph{
     font-size: 18px;
