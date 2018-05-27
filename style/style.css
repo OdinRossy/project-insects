@@ -1,6 +1,12 @@
 a{
     text-decoration: none;
 }
+.title{
+    font-size: 64pt;
+}
+.title:hover{
+    text-decoration: none;
+}
 mark{
     border-radius: 5px;
     background-color: rgba(233, 150, 122, 0.51);
