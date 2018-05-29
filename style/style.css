@@ -35,7 +35,14 @@ mark{
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
 .img-big{
-    display: inline;
     margin-top: 20px;
     box-shadow: 0 2px 50px black;
+}
+.block{
+    background-color: #cccccc;
+    margin-bottom: 50px;
+    box-shadow: 0 25px 50px;
+}
+.block .text{
+    padding: 20px;
 }
