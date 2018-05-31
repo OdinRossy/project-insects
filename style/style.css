@@ -22,26 +22,17 @@ mark{
 .navbar{
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
-/*.mycol{*/
-    /*padding-left: 40px;*/
-    /*padding-right: 40px;*/
-/*}*/
-/*.insect{*/
-    /*border-radius: 5px;*/
-    /*box-shadow: 0 0 20px rgba(0,0,0,0.5);*/
-    /*padding: 15px;*/
-/*}*/
 .img-circle{
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 .img-big{
     margin-top: 20px;
-    box-shadow: 0 2px 50px black;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 .block{
     background-color: #cccccc;
     margin-bottom: 50px;
-    box-shadow: 0 25px 50px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 .block .text{
     padding: 20px;
