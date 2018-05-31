@@ -2,8 +2,7 @@
 mark{
     border-radius: 5px;
     background-color: rgba(255, 202, 57, 0.29);
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 2px 3px;
 }
 .no-decoration{
     color: rgba(0, 0, 0, 0.75);
