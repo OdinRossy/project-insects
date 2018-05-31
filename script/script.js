@@ -17,6 +17,7 @@ $(function () {
             numberOfCorrect++;
             // window.alert("Верно " + numberOfCorrect);
         }
-        alert("Вы ответили правильно на " + numberOfCorrect + " вопросов.")
+        alert("Вы ответили правильно на " + numberOfCorrect + " вопросов.");
+        numberOfCorrect = 0;
     });
 });
