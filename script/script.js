@@ -17,6 +17,30 @@ $(function () {
             numberOfCorrect++;
             // window.alert("Верно " + numberOfCorrect);
         }
+        if ($('#q17').prop('checked') === true && $('#q18').prop('checked') === false && $('#q19').prop('checked') === false && $('#q20').prop('checked') === false) {
+            numberOfCorrect++;
+            // window.alert("Верно " + numberOfCorrect);
+        }
+        if ($('#q21').prop('checked') === true && $('#q22').prop('checked') === false && $('#q23').prop('checked') === false && $('#q24').prop('checked') === false) {
+            numberOfCorrect++;
+            // window.alert("Верно " + numberOfCorrect);
+        }
+        if ($('#q25').prop('checked') === true && $('#q26').prop('checked') === false && $('#q27').prop('checked') === false && $('#q28').prop('checked') === false) {
+            numberOfCorrect++;
+            // window.alert("Верно " + numberOfCorrect);
+        }
+        if ($('#q29').prop('checked') === true && $('#q30').prop('checked') === false && $('#q31').prop('checked') === false && $('#q32').prop('checked') === false) {
+            numberOfCorrect++;
+            // window.alert("Верно " + numberOfCorrect);
+        }
+        if ($('#q33').prop('checked') === true && $('#q34').prop('checked') === false && $('#q35').prop('checked') === false && $('#q36').prop('checked') === false) {
+            numberOfCorrect++;
+            // window.alert("Верно " + numberOfCorrect);
+        }
+        if ($('#q37').prop('checked') === true && $('#q38').prop('checked') === false && $('#q39').prop('checked') === false && $('#q40').prop('checked') === false) {
+            numberOfCorrect++;
+            // window.alert("Верно " + numberOfCorrect);
+        }
         alert("Вы ответили правильно на " + numberOfCorrect + " вопросов.");
         numberOfCorrect = 0;
     });
