@@ -43,9 +43,13 @@ $(function () {
         }
         answer(numberOfCorrect);
     });
+
     function answer(num) {
-        if (num===0){
+        if (num === 0) {
             alert("Вы не ответили правильно ни на один вопрос.")
+        }
+        else if (num === 10) {
+            alert("Поздравляем! Вы ответили на все вопросы верно!")
         }
         else {
             alert("Вы ответили правильно на " + num + " из 10 вопросов.");
