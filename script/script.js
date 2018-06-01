@@ -41,7 +41,15 @@ $(function () {
             numberOfCorrect++;
             // window.alert("Верно " + numberOfCorrect);
         }
-        alert("Вы ответили правильно на " + numberOfCorrect + " вопросов.");
+        answer(numberOfCorrect);
         numberOfCorrect = 0;
     });
+    function answer(num) {
+        if (num===0){
+            alert("Вы не ответили ни на один вопрос правильно")
+        }
+        else {
+            alert("Вы ответили правильно на " + num + " из 10 вопросов.");
+        }
+    }
 });
