@@ -1,5 +1,5 @@
-$(function () {
-    $('#button').click(function () {
+$(function() {
+    $('#button').click(function() {
         let numberOfCorrect = 0;
         // Вопрос 1 (2)
         if ($('#q1').prop('checked') === false && $('#q2').prop('checked') === true && $('#q3').prop('checked') === false && $('#q4').prop('checked') === false) {
@@ -47,11 +47,9 @@ $(function () {
     function answer(num) {
         if (num === 0) {
             alert("Вы не ответили правильно ни на один вопрос.")
-        }
-        else if (num === 10) {
+        } else if (num === 10) {
             alert("Поздравляем! Вы ответили на все вопросы верно!")
-        }
-        else {
+        } else {
             alert("Вы ответили правильно на " + num + " из 10 вопросов.");
         }
     }
